@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 150px;
+    background-image: url("../Images/bg4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    
+    border-radius: 10px;
+    
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+}
+
+form input, form textarea {
+    width: calc(100%); 
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #333;
+    margin-bottom: 15px; 
+    box-sizing: border-box; 
+    font-family: Verdana, sans-serif; 
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+

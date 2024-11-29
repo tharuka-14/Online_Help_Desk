@@ -1,0 +1,97 @@
+/* Main Content */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 150px;
+    background-image: url("../Images/bg5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Form Section */
+.form-section {
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+/* Center the form title */
+.form-section h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cacaca;
+    font-weight: bold;
+    
+}
+
+input,
+select,
+textarea {
+    width: calc(100%); 
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #333;
+    margin-bottom: 15px; 
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif; 
+}
+
+/* Specific styles for IDs */
+#name, #email, #id, #Faculty, #issue-type, #description, #attachment {
+    border: 1px solid #121212; 
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #717171;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%; 
+}
+
+button[type="submit"]:hover {
+    background-color: #9d9d9d;
+}
+
+/*Reset Button*/
+button[type="reset"] {
+    background-color: #717171;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%; 
+}
+
+button[type="reset"]:hover {
+    background-color: #9d9d9d;
+}
+/* Success Message */
+#successMessage {
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+}
+

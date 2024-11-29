@@ -1,0 +1,193 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 150px;
+    background-image: url("../Images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1{
+    text-align:center;
+    color: rgb(0, 0, 0);
+}
+
+fieldset{
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#profile_box{
+    border-radius: px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    height: 10PX;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px
+}
+
+#gender {
+    width: 99%;
+    height: 20PX;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000d1;
+    padding: 20px 45px 20px 20px
+}
+
+#btn_nxt{   
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    width:280px;
+    height: 40px       
+}
+
+#btn_nxt:hover{
+    background-color: rgba(245, 245, 247, 0.503);
+    transform: scale(1.05);
+}
+
+#btn_rset{ 
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    width:280px;
+    height: 40px
+}
+
+#btn_rset:hover{
+    background-color: rgba(245, 245, 247, 0.503);
+    transform: scale(1.05);
+}
+
+#btn_delete{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    width:280px;
+    height: 40px
+}
+
+#btn_delete:hover{
+    background-color: rgba(242, 234, 234, 0.492);
+    transform: scale(1.05);
+}
+
+#btn_logout{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    width:280px;
+    height: 40px
+}
+
+#btn_logout:hover{
+    background-color: rgba(240, 231, 230, 0.574);
+    transform: scale(1.05);
+}
+
+#btn_update{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    width:280px;
+    height: 40px 
+}
+
+#btn_update:hover{
+    background-color: rgba(246, 247, 246, 0.544);
+    transform: scale(1.05);
+}
+
+.text{
+    text-align: justify;
+}
+
+option{
+    color: rgb(0, 0, 0);
+}

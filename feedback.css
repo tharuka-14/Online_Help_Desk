@@ -1,0 +1,92 @@
+/* Main Content */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 150px;
+    background-image: url("../Images/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Form Section */
+.feedback-form {
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+/* Center the form title */
+.feedback-form h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: calc(100%); /* Subtract the padding */
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #333;
+    margin-bottom: 15px; /* Space between fields */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    font-family: Verdana, sans-serif; /* Set font family */
+}
+
+/* Specific styles for IDs */
+#name, #email, #id, #Faculty, #issue-type, #description, #attachment {
+    border: 1px solid #007bff; /* Primary Blue border */
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%; /* Make the button full width */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Success Message */
+#successMessage {
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .feedback-form {
+        padding: 15px;
+    }
+
+    button[type="submit"] {
+        padding: 8px 10px;
+    }
+}

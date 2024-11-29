@@ -1,0 +1,102 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+   
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6); 
+}
+
+table th {
+    background-color: rgba(76, 175, 80, 0.8); 
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05); 
+}
+
+table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.button {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    display: inline-block; 
+    margin: 5px 0; 
+}
+
+.button + .button { 
+    margin-left: 10px; 
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+        
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50%;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+}

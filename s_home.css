@@ -1,0 +1,84 @@
+body {
+  font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+  }
+  
+  .container {
+    font-size: 36px; 
+    color: #fffefe;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cursor {
+    font-weight: bold;
+    color: #333;
+    animation: blink 0.2s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Button Container */
+  .button-container {
+    margin-top: 50px; 
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Neon Button Style */
+  .neon-button {
+    padding: 12px 24px;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .neon-button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 0;
+    transition: 0.3s ease;
+  }
+  
+  .neon-button:hover {
+    color: #fff;
+    box-shadow: 0 0 10px #eeeeee, 0 0 10px #eeeeee, 0 0 10px #eeeeee;
+    background-color: #000;
+  }
+  
+  .neon-button:hover:before {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .neon-button:active {
+    transform: scale(0.98);
+  }
+  
